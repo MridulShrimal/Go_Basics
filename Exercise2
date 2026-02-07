@@ -1,0 +1,22 @@
+/* 
+Exercise 2: The Logic Gate
+Let's combine what we've learned. Write a snippet that uses your isOnline and score variables from the previous exercise:
+
+1. Use an if/else statement.
+2. If isOnline is true, print "User is active".
+3. Otherwise, print "User is away".
+Bonus: Create a for loop that prints the word "Go!" three times.
+*/
+
+var isOnline bool = true
+var score int = 100
+
+if isOnline {
+ 	fmt.Println("user is active")
+} else {
+ 	fmt.Println("user is away")
+}
+
+for i := 0; i < 3; i++ {
+     fmt.Println("Go")
+}
